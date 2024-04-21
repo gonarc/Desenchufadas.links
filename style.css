@@ -58,6 +58,12 @@ font-weight: 600;
     width:3rem;
 
 }
+.img_icono{
+    padding: 2px;
+    background-color: #9E299F;
+    border-radius: 50px;
+    margin: 8px;
+}
 .copy{
     margin:16px;
     color: white;
