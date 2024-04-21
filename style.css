@@ -11,9 +11,10 @@ body{
     background: rgb(56,4,47);
     background: linear-gradient(0deg, rgba(56,4,47,1) 0%, rgba(142,5,118,1) 30%, rgba(169,2,137,1) 70%, rgba(210,1,165,1) 100%);
 }
-.titulo{
+.titulo h1{
     color: white;
     text-align: center;
+    font-size:25px;
 }
 .div_foto_perfil{
     margin-top: 4rem;
