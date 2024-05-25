@@ -1,5 +1,5 @@
 function openYouTubeApp(videoId) {
-    var appLink = 'youtube://www.youtube.com/watch?v=' + videoId;
+    var appLink = 'https://youtu.be/' + videoId;
     var webLink = 'https://www.youtube.com/watch?v=' + videoId;
 
     // Intentar abrir la aplicación de YouTube
