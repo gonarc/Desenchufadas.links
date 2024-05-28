@@ -28,6 +28,49 @@ body{
     text-align: center;
     font-size: 18px;
 }
+@keyframes neon {
+    0%, 90% {
+        box-shadow: 0 0 8px #A3F0ED, 0 0 16px #00ffff, 0 0 24px #00ffff, 0 0 32px #00ffff;
+    }
+    50% {
+        box-shadow: None;
+    }
+}
+
+#linkButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    background: #000;
+    border-radius: 16px;
+    animation: neon 5s infinite;
+}
+
+#linkButton:hover {
+    color: #00ffff;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.blinking-dot {
+    width: 10px;
+    height: 10px;
+    margin-left: 8px;
+    background-color: red;
+    border-radius: 50%;
+    animation: blink 1s infinite;
+}
+
+
 @media only screen and (max-width: 600px) {
     .container{
         height: 100%;
@@ -63,7 +106,7 @@ body{
     box-shadow: 0px 5px 22px black;
     border-radius:16px;
     width: 100%;
-    margin: 8px;
+    margin: 12px;
     padding:2px;
     text-decoration: none;
     color: white;
