@@ -33,13 +33,13 @@ body{
         box-shadow:None;  
     }
     10%{
-        box-shadow: 0 0 1px #A3F0ED, 0 0 2px #00ffff, 0 0 3px #00ffff, 0px 0px 8px #00ffff;
+        box-shadow: 0 0 1px #A3F0ED, 0 0 2px #A3F0ED, 0 0 3px #A3F0ED, 0px 0px 8px #A3F0ED;
     }
     20%{
         box-shadow:None;  
     }
     90% {
-        box-shadow: 0 0 1px #A3F0ED, 0 0 2px #00ffff, 0 0 3px #00ffff, 0px 0px 8px #00ffff;
+        box-shadow: 0 0 1px #A3F0ED, 0 0 2px #A3F0ED, 0 0 3px #A3F0ED, 0px 0px 8px #A3F0ED;
     }
     100% {
         box-shadow:None;
@@ -59,6 +59,12 @@ body{
 
 #linkButton:hover {
     color: #00ffff;
+}
+#iframe_streaming{
+    animation: neon 10s infinite;
+    border-radius: 16px;
+
+
 }
 
 @keyframes blink {
