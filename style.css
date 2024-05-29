@@ -29,11 +29,20 @@ body{
     font-size: 18px;
 }
 @keyframes neon {
-    0%, 90% {
-        box-shadow: 0 0 8px #A3F0ED, 0 0 16px #00ffff, 0 0 24px #00ffff, 0 0 32px #00ffff;
+    0%{
+        box-shadow:None;  
     }
-    50% {
-        box-shadow: None;
+    10%{
+        box-shadow: 0 0 1px #A3F0ED, 0 0 2px #00ffff, 0 0 3px #00ffff, 0px 0px 8px #00ffff;
+    }
+    20%{
+        box-shadow:None;  
+    }
+    90% {
+        box-shadow: 0 0 1px #A3F0ED, 0 0 2px #00ffff, 0 0 3px #00ffff, 0px 0px 8px #00ffff;
+    }
+    100% {
+        box-shadow:None;
     }
 }
 
@@ -45,7 +54,7 @@ body{
     text-decoration: none;
     background: #000000c2;
     border-radius: 16px;
-    animation: neon 5s infinite;
+    animation: neon 3s infinite;
 }
 
 #linkButton:hover {
