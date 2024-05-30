@@ -35,7 +35,7 @@ body{
         box-shadow:None;  
     }
     10%{
-        box-shadow: 0 0 1px #A3F0ED, 0 0 2px #A3F0ED, 0 0 3px #A3F0ED, 0px 0px 8px #A3F0ED;
+        box-shadow: 0 0px 1px #A3F0ED, 0 0px 2px #A3F0ED, 0 0px 3px #A3F0ED, 0px 1px 8px #A3F0ED;
     }
     20%{
         box-shadow:None;  
@@ -160,7 +160,7 @@ font-weight: 600;
     font-size: 14px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .container{
         width: 95%;
         height: 100%;
