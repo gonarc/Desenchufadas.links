@@ -3,16 +3,17 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: "Merriweather", serif;
+    background: rgb(56,4,47);
+    background: linear-gradient(0deg, rgba(56,4,47,1) 0%, rgba(142,5,118,1) 30%, rgba(169,2,137,1) 70%, rgba(210,1,165,1) 100%);
 }
 
 .container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 100%;
+    margin: auto;
+    width: 50%;
     height: 100%;
-    background: rgb(56,4,47);
-    background: linear-gradient(0deg, rgba(56,4,47,1) 0%, rgba(142,5,118,1) 30%, rgba(169,2,137,1) 70%, rgba(210,1,165,1) 100%);
 }
 .container_ultimo_programa{
     display: flex;
@@ -27,7 +28,7 @@ body{
 .title_streaming{
     color: white; 
     text-align: center;
-    font-size: 18px;
+    font-size: 1.3rem;
 }
 @keyframes neon {
     0%{
@@ -64,7 +65,7 @@ body{
 #iframe_streaming{
     animation: neon 10s infinite;
     border-radius: 16px;
-    width: 50%;
+    width: 100%;
     height: 400px;
 
 }
@@ -90,10 +91,10 @@ body{
 .titulo h1{
     color: white;
     text-align: center;
-    font-size:20px;
     font-family: "Merriweather", serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 1.5rem;
 }
 .div_foto_perfil{
     margin-top: 3rem;
@@ -116,7 +117,7 @@ body{
 .container_links a{
     box-shadow: 0px 5px 22px black;
     border-radius:16px;
-    width: 50%;
+    width: 100%;
     margin: 12px;
     padding:2px;
     text-decoration: none;
@@ -161,6 +162,7 @@ font-weight: 600;
 
 @media only screen and (max-width: 600px) {
     .container{
+        width: 95%;
         height: 100%;
         
     }
@@ -183,6 +185,10 @@ font-weight: 600;
         border-radius: 16px;
         width: 100%;
         height: 315px;
+    
+    }
+    .div_foto_perfil img{
+        width: 26rem;
     
     }
 }
